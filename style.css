@@ -1,0 +1,39 @@
+
+.heading{
+    font-weight: 700;
+    color: blueviolet;
+    margin-top: 30px;
+}
+.container
+{
+    align-items: center;
+    border: 3px solid blueviolet;
+    max-height: 800px;
+    max-width: 1200px;
+    padding: 30px;
+    margin-left: 150px ;
+
+    border-radius: 10px;
+
+}
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    
+}
+button{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: blueviolet;
+    box-shadow:20px unset ;
+}
+.result{
+   margin-top: 30px;
+    color: blueviolet;
+    text-align: center;
+  
+}
